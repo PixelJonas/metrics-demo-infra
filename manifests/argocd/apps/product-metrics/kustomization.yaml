@@ -1,11 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namespace: product-metrics-infra
+namespace: argocd
 
 bases:
   - "../../project"
 
 resources:
-  - namespace.yaml
   - product-metrics-app.yaml
