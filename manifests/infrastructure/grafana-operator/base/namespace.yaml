@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: Project for infrastrucutre components for product metrics application
+    openshift.io/display-name: Product Metrics Infra
+  name: product-metrics-infra
