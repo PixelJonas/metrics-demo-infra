@@ -3,3 +3,4 @@ kind: Kustomization
 
 bases:
   - ../../../manifests/infrastructure/grafana-operator/base
+  - github.com/marcoklaassen/quarkus-product-metrics/.openshift/argocd/apps/prod?ref=demo/step-1
