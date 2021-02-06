@@ -17,3 +17,9 @@ patchesJson6902:
       kind: ClusterRoleBinding
       name: grafana-proxy
     path: patch-proxy-namespace.yaml
+  - target:
+      version: v1alpha1
+      group: operators.coreos.com
+      kind: Subscription
+      name: grafana
+    path: patch-grafana-version.yaml
