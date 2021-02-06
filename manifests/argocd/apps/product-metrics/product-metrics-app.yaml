@@ -12,7 +12,7 @@ spec:
   source:
     path: environments/overlays/default
     repoURL: https://github.com/PixelJonas/metrics-demo-infra
-    targetRevision: main
+    targetRevision: step-2
   syncPolicy:
     automated:
       prune: true
