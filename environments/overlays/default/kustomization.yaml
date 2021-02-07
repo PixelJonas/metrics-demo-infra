@@ -3,4 +3,4 @@ kind: Kustomization
 
 bases:
   - github.com/marcoklaassen/quarkus-product-metrics/.openshift/argocd/apps/prod?ref=demo/step-2
-  - github.com/marcoklaassen/product-metrics-monitoring/.openshift/argocd/apps/dashboards?ref=main
+  - github.com/marcoklaassen/product-metrics-monitoring/.openshift/argocd/dashboards?ref=main
